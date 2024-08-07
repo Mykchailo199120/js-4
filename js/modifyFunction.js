@@ -11,12 +11,17 @@
 */
 
 function originalFunction(num) {
-  // code
+  return num * 2;
 }
 
 function modifyFunction(originalFunc, multiplier) {
-  // code
+  return function (num){
+      return originalFunc(num) * multiplier;
+  }
 }
+const modifiedFunc = modifyFunction(originalFunction, 3);
+console.log('Original function output for 4', originalFunction(4));
+console.log('Modified function output for 4', modifiedFunc(4));
 
 // Приклад використання
 // const modifiedFunc = modifyFunction(originalFunction, 3)

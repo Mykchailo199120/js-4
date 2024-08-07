@@ -15,13 +15,13 @@ deepInnerFunction повинна виконувати операцію множ�
 function outerFunction(arg1) {
   function innerFunction(arg2) {
     function deepInnerFunction(arg3) {
-      // code
+
     }
 
-    // code
+
   }
 
-  // code
+
 }
 
 // const result = outerFunction(2)(3)(4)
