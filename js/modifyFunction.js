@@ -11,7 +11,7 @@
 */
 
 function originalFunction(num) {
-  return num * 2;
+  return num * 4;
 }
 
 function modifyFunction(originalFunc, multiplier) {
